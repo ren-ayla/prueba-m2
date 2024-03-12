@@ -11,7 +11,6 @@ main {           /*Establecemos un fondo negro para la etiqueta main y principal
 
 .navbar {  /*Ajuste Navbar*/
     position: absolute;
-    z-index: 10;
     width: 100%;
     font-size: 15px;
     font-weight: 400;
@@ -33,7 +32,7 @@ main {           /*Establecemos un fondo negro para la etiqueta main y principal
     font-size: 30px;
 }
 
-.destacados{
+.destacados{ /*Agregamos un padding bottom a la sección "destacados" para que quede más lindo*/
     padding-bottom: 40px;
 }
 
@@ -45,9 +44,9 @@ main {           /*Establecemos un fondo negro para la etiqueta main y principal
     font-family: "Montserrat", sans-serif;
 }
 
-p{ /*Todos los párrafos de la página se estilizarán con los siguientes ajustes ya que es más fácil y se puede hacer*/
+p{ /*Todos los párrafos de la página se estilizarán con los siguientes ajustes ya que es más fácil y se puede hacer en mi caso*/
     font-weight: 300;
-    font-size: 17px;
+    font-size: 16px;
 }
 .carousel-item { /*Ajuste y estilización de imágenes del Carousel para que siempre se muestren bien*/
     height: 100vh;
@@ -73,7 +72,7 @@ form h2{ /*Ajuste peso y tamaño título h2 form ("contacto")*/
     font-family: "Montserrat", sans-serif;
 }
 
-form label{ /*Ajuste peso y tamaño texto label*/
+form label{ /*Ajuste peso y tamaño texto label del Formulario de Contacto*/
     font-size: 16px;
     font-weight: 300;
     
